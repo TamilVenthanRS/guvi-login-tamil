@@ -1,27 +1,27 @@
 <!DOCTYPE html>
 <html>
+  <link rel="stylesheet" href="css/login.css">
 <head>
   <title>Login Page</title>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
 </head>
 <body>
 
 <div class="container">
-  <h2>Login Page</h2>
+  <h2 style="text-align: center;"> Login </h2>
   <form id="login-form">
     <div class="form-group">
       <label for="username">Username:</label>
-      <input type="text" class="form-control" id="username" name="username">
+      <input type="text" class="form-control" id="username" name="username" required placeholder="Enetr your Username">
     </div>
     <div class="form-group">
       <label for="password">Password:</label>
-      <input type="password" class="form-control" id="password" name="password">
+      <input type="password" class="form-control" id="password" name="password" required placeholder="Enter your Password">
     </div>
-    <button type="submit" class="btn btn-primary">Login</button>
+    <button type="submit" class=" btn btn-primary"><span></span>login</button><br/>
+    <label id="ggh">Not registered yet?</label><a href="register.html"> register</a>
+    
   </form>
 </div>
 
